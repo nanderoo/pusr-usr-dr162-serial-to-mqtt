@@ -7,4 +7,7 @@ The exercise involved reading and writing MQTT payload messages to the pre-confi
 
 Tested was done using a Raspberry Pi 2W and [Waveshare USB to RS232/485 serial converter](https://www.waveshare.com/usb-to-rs232-485.htm).
 
-*_NOTE:_**  Per discussion with the manufactures technical support the DR162 does not suport TTL via STTY/UART 'serial' via the GPIO pins. I initally tried to get this to work by mapping pins 14 & 15 for RX/TX and reading and writing from something like`/dev/ttyS0`. You need an actual RS232 device in order to use the interface, like the Waveshare converter mentioned above, and access it via something like `/dev/ttyUSB0`. The +5 volts and ground pins from the Pi are sufficent to power the device.
+**_NOTE:_**  Per discussion with the manufactures technical support the DR162 does not suport TTL via STTY/UART 'serial' via the GPIO pins. I initally tried to get this to work by mapping pins 14 & 15 for RX/TX and reading and writing from something like`/dev/ttyS0`. You need an actual RS232 device in order to use the interface, like the Waveshare converter mentioned above, and access it via something like `/dev/ttyUSB0`. The +5 volts and ground pins from the Pi are sufficent to power the device.
+
+(1000007893.jpg)
+(1000007894.jpg)
